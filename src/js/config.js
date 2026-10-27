@@ -7,6 +7,6 @@ const LOCAL_HOSTS = new Set(['localhost', '127.0.0.1', '::1', '']);
 export const API_URL =
   LOCAL_HOSTS.has(location.hostname) || location.protocol === 'file:'
     ? 'http://127.0.0.1:8000'
-    : 'https://palmera-records-backend-mbhz.onrender.com';
+    : 'https://palmera-records-backend-1.onrender.com';
 
 export default API_URL;
